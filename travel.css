@@ -1,0 +1,135 @@
+.home{
+    position: relative;
+    background-image: url("booking.jpg");
+    height: 700px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    background-size: cover;  
+}
+
+#img1{
+  height:100px;
+  width:100px;
+  position: absolute;
+  top:20px;
+  left:20px;
+  z-index: 5;
+}
+
+#content{margin: 2px auto;
+   float: right;
+   position: relative;
+    top:100px;
+    /*  left:80px; */
+    font-family: 'Baloo Chettan 2', cursive;
+    font-size: 32px;
+    font-weight: bold;
+    color: #ffffff;
+    width:450px;
+    height:auto;
+    
+}
+.second{
+    
+    margin: 2px auto;
+    position :relative;
+    height:650px;
+    
+}
+
+.form { 
+    top:60px;
+    background-color: antiquewhite;
+    position: relative;
+    left:220px;
+    justify-content: center;
+   font-family: 'Alegreya', serif;
+   font-size: 24px;
+   /* letter-spacing: 2px; */
+   width: 400px;
+   height: 400px;
+   border-radius: 2px;
+   border-width: 5px;
+   border-color: #e99696;
+   border-style: double;
+   
+}
+
+#img2{ height:400px;
+    width:400px;
+    position: relative;
+    top:60px;
+    float: right;
+    right:100px;
+    z-index: 5;
+    /* margin-top: 12px; */
+
+}
+button{position: relative;
+    justify-content: center;
+    top:150px;
+    left:60px;
+    font-family: 'Alegreya', serif;
+    font-size:24px ;
+    width:250px;
+    height:50px;
+    background-color:orangered;
+}
+button:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+#pickup{position: relative;
+    top:20px;
+    left:40px;
+}
+#drop{position: relative;
+    top:60px;
+    left:40px;
+}
+#when{position: relative;
+    top:100px;
+    left:40px;
+}
+.last{
+   position: relative;
+   height:200px;
+   background-color: grey; 
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover; 
+}
+#con{
+
+    position: relative;
+    top:95px;
+    left:500px;
+    font-family: 'Sacramento', cursive;
+    font-size: 44px;
+    color: white;
+}
+#heart img{
+    position: relative;
+    left:45%;
+    right:0;
+    margin:0 auto;
+    z-index: 5;
+   }
+  
+   @keyframes heartFadeInOut {
+    0% {transform: scale(1);}
+    25% {transform: scale(.97);}
+    35% {transform: scale(.9);}
+    45% {transform: scale(1.1);}
+    55% {transform: scale(.9);}
+    65% {transform: scale(1.1);}
+    75% {transform: scale(1.03);}
+    100% {transform: scale(1);}
+  }
+  
+  #heart img.bottom { 
+    animation-name: heartFadeInOut; 
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+  }
