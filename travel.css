@@ -92,6 +92,22 @@ button:hover{
     top:100px;
     left:40px;
 }
+select {
+    /* float: right; */
+    padding: 4px;
+    margin-top: 8px;
+    margin-right: 8px;
+    border: none;
+    font-size: 17px;
+  }
+input[type=text] {
+    /* float: right; */
+    padding: 6px;
+    margin-top: 8px;
+    margin-right: 16px;
+    border: none;
+    font-size: 17px;
+  }
 .last{
    position: relative;
    height:200px;
