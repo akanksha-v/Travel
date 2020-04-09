@@ -1,13 +1,40 @@
+@media only screen and (max-width: 900px)
+{  #content{
+    position: relative;
+    top:40%;
+}
+    #img2{
+        display:none;
+    }
+    .last{
+        display:none;
+    }
+    .form{
+        position:relative;
+        /* left:20%; */
+        float:left;
+    }
+}
+body{
+    overflow-x: hidden;
+}
+
 .home{
     position: relative;
     background-image: url("booking.jpg");
     height: 700px;
+    width:100%;
     background-attachment: fixed;
     background-repeat: no-repeat;
     margin: 0 auto;
-    background-size: cover;  
+     background-size: cover;   
 }
-
+.show{
+    display:block;
+}
+.hide{
+    display:none;
+}
 #img1{
   height:100px;
   width:100px;
@@ -38,23 +65,30 @@
     
 }
 
-.form { 
+.form { position:relative;
     top:60px;
     background-color: antiquewhite;
-    position: relative;
+    
     left:220px;
     justify-content: center;
    font-family: 'Alegreya', serif;
    font-size: 24px;
    /* letter-spacing: 2px; */
    width: 400px;
-   height: 400px;
+   height: 500px;
    border-radius: 2px;
    border-width: 5px;
    border-color: #e99696;
    border-style: double;
    
 }
+/* #price1{
+    color:#e99696;
+    position:relative;
+    float:right;
+    font-size:28px;
+    display:none;
+} */
 
 #img2{ height:400px;
     width:400px;
@@ -66,9 +100,9 @@
     /* margin-top: 12px; */
 
 }
-button{position: relative;
+#button{position: relative;
     justify-content: center;
-    top:150px;
+    top:145px;
     left:60px;
     font-family: 'Alegreya', serif;
     font-size:24px ;
@@ -88,6 +122,7 @@ button:hover{
     top:60px;
     left:40px;
 }
+
 #when{position: relative;
     top:100px;
     left:40px;
@@ -100,13 +135,13 @@ select {
     border: none;
     font-size: 17px;
   }
-input[type=text] {
+input[type=text] {position: relative;
     /* float: right; */
-    padding: 6px;
-    margin-top: 8px;
-    margin-right: 16px;
+    padding: 4px;
+    margin-top: 4.7px;
+    margin-right: 10px;
     border: none;
-    font-size: 17px;
+    font-size: 18px;
   }
 .last{
    position: relative;
