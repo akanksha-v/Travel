@@ -65,7 +65,7 @@
         <!-- <div id="price1">You need to pay 10Rs wherever u go inside campus..</div> -->
     </div>
     <?php 
-         $conn =new mysqli("localhost", "akanksha", "Prakhar2105", "travel");
+         $conn =new mysqli("localhost", "username", "Password", "travel");
             
          
          
